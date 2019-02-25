@@ -26,7 +26,7 @@ function check_datatype(type) {
     else  if(typeof(type)==='object'&& typeof(type[0])!=='object' )
     {
         console.log("array");
-        type.map((k,i)=>{
+        type.map((k)=>{
             console.log(k)
         })
     }
@@ -35,7 +35,7 @@ function check_datatype(type) {
        
            
       console.log('Type : Array of Object')
-      type.map((k,i)=>{
+      type.map((k)=>{
         console.log(k);
 });
     }
